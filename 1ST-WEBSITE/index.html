@@ -1,0 +1,320 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Rushikesh's personal website showcasing hobbies, goals, and interests"
+    />
+    <title>Rushikesh's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.pinimg.com/736x/ed/c1/23/edc1231eb06c19c691895fa8a838fd0a.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+      <button id="themeToggle" aria-label="Toggle dark/light mode">🌙</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <div class="nav-brand">RJ</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#likes">Likes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="animate-text">Welcome to my World</h1>
+        <p class="animate-text-delay">
+          The space where dreams, hobbies, and goals come to life!
+        </p>
+        <a href="#about" class="cta-button">Explore More</a>
+      </div>
+      <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hi! I'm Rushikesh, a passionate individual who believes in
+              achieving the impossible. An aspiring Full-Stack Developer with a
+              love for coding, tech, and anime. I’m passionate about creating
+              dynamic web applications and constantly learning new tools and
+              technologies to level up my skills.
+            </p>
+            <!-- <p>
+              Currently pursuing B.Tech in Computer Science at JSPM RSCOER NTC,
+              I'm driven by curiosity and a desire to create meaningful impact
+              through technology.
+            </p> -->
+            <p>
+              In my free time, I enjoy gaming, checking out the latest tech, and
+              relaxing with a good anime. Whether it’s working on cool projects
+              or geeking out about tech and shows, I’m always excited to learn
+              and share ideas.
+            </p>
+            <p>Feel free to connect—let’s create something awesome!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies section-padding">
+      <div class="container">
+        <h2 class="section-title">Hobbies</h2>
+        <div class="hobbies-grid">
+          <div class="hobby-card" data-category="gaming">
+            <div class="hobby-icon">🎮</div>
+            <h3>Gaming</h3>
+            <p>Exploring virtual worlds and strategic challenges</p>
+            <a href="gaming2.html" class="hobby-link">Learn More</a>
+          </div>
+          <div class="hobby-card" data-category="reading">
+            <div class="hobby-icon">📚</div>
+            <h3>Reading</h3>
+            <p>Discovering new worlds through books</p>
+            <a href="reading.html" class="hobby-link">Learn More</a>
+          </div>
+          <div class="hobby-card" data-category="traveling">
+            <div class="hobby-icon">✈️</div>
+            <h3>Traveling</h3>
+            <p>Exploring new places and cultures</p>
+            <a href="traveling.html" class="hobby-link">Learn More</a>
+          </div>
+          <div class="hobby-card" data-category="anime">
+            <div class="hobby-icon">🎭</div>
+            <h3>Anime</h3>
+            <p>Enjoying Japanese animation and storytelling</p>
+            <a href="anime.html" class="hobby-link">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="goals section-padding">
+      <div class="container">
+        <h2 class="section-title">Goals</h2>
+        <div class="goals-grid">
+          <div class="goal-card">
+            <div class="goal-icon">💻</div>
+            <h3>Become a Software Engineer</h3>
+            <div class="progress-bar">
+              <div class="progress" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="goal-card">
+            <div class="goal-icon">🌍</div>
+            <h3>Explore the World</h3>
+            <div class="progress-bar">
+              <div class="progress" style="width: 30%"></div>
+            </div>
+          </div>
+          <div class="goal-card">
+            <div class="goal-icon">✍️</div>
+            <h3>Start a Personal Tech venture</h3>
+            <div class="progress-bar">
+              <div class="progress" style="width: 45%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Likes Section -->
+    <section id="likes" class="likes section-padding">
+      <div class="container">
+        <h2 class="section-title">Likes & Favorites</h2>
+        <h3>Favorite Movies</h3>
+        <div class="movies-carousel">
+          <button class="carousel-button prev" aria-label="Previous slide">
+            ❮
+          </button>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <div class="movie-card">
+                <img
+                  src="https://i.pinimg.com/736x/f0/0e/f4/f00ef4ef28062a3ffe32c80cfa039c86.jpg"
+                  alt="Avengers Endgame"
+                  class="movie-poster"
+                  loading="lazy"
+                />
+                <h3>Interstellar</h3>
+              </div>
+              <div class="movie-card">
+                <img
+                  src="https://i.pinimg.com/736x/25/82/b4/2582b4a9b2174193380ad366886ee5a3.jpg"
+                  alt="Avengers Endgame"
+                  class="movie-poster"
+                  loading="lazy"
+                />
+                <h3>John Wick</h3>
+              </div>
+              <div class="movie-card">
+                <img
+                  src="https://i.pinimg.com/736x/fb/8c/41/fb8c4189e5acb804d7ae80b853a2aa06.jpg"
+                  alt="Avengers Endgame"
+                  class="movie-poster"
+                  loading="lazy"
+                />
+                <h3>Extraction 2</h3>
+              </div>
+              <div class="movie-card">
+                <img
+                  src="https://i.pinimg.com/736x/ff/a4/ac/ffa4acfb9370992ddb8818f10c0e028e.jpg"
+                  alt="Avengers Endgame"
+                  class="movie-poster"
+                  loading="lazy"
+                />
+                <h3>Avengers Endgame</h3>
+              </div>
+              <div class="movie-card">
+                <img
+                  src="https://i.pinimg.com/736x/d9/62/3c/d9623c6942cfa73a1897431484b1dccb.jpg"
+                  alt="Avengers Endgame"
+                  class="movie-poster"
+                  loading="lazy"
+                />
+                <h3>Man of Steel</h3>
+              </div>
+              <!-- Add other movie cards similarly -->
+            </div>
+          </div>
+          <button class="carousel-button next" aria-label="Next slide">
+            ❯
+          </button>
+        </div>
+
+        <div class="favorite-color">
+          <h3>Favorite Color: Black</h3>
+          <div class="color-box"></div>
+          <p class="color-description">
+            "Black is my favorite color because it represents elegance,
+            strength, and simplicity. I love how it pairs well with everything
+            and has an aura of mystery and sophistication. To me, black is
+            timeless and bold, just like my ambitions!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suggestions Form -->
+    <div class="suggestions-form">
+      <h3>Suggestions</h3>
+      <form
+        id="suggestionForm"
+        action="https://formspree.io/f/mgvvpkvw"
+        method="POST"
+      >
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="suggestion">Suggestion:</label>
+          <textarea
+            id="suggestion"
+            name="suggestion"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+      <div id="formResponse" class="form-response"></div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/rushikesh_jadhav28/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a
+            href="https://wa.me/+918010282366"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+          <a
+            href="https://x.com/rushikesh_283"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top" class="back-to-top">
+      ↑
+    </button>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>Created with ❤️ by Rushikesh Jadhav</p>
+        <p class="copyright">© 2024 All rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script src="scripts/main.js"></script> -->
+    <!-- <script src="scripts/carousel.js"></script> -->
+    <!-- <script src="https://kit.fontawesome.com/your-kit-code.js"></script> -->
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+  </body>
+</html>
